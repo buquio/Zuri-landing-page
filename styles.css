@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.container{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header img{
+    height: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+/* added  */
+/* div.toggle-icon {
+    display: none;
+    color:#E7332B;
+    font-size: 18px;
+} */
+
+.nav-links li {
+    margin-left: 30px;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:#E7332B;
+}
+
+/* .nav-links li a:nth-child(4){ */
+    #reg{
+    color: white;
+    border-radius: 10px;
+    background-color: #E7332B;
+    padding: 15px 30px;
+}
+/* intro  */
+.intro{
+    background-color:#e9e6e6;
+
+}
+.intro-main{
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+.intro-main h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-main p{
+    text-align: left;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+ .button-wrapper{
+     margin: 20px;
+     padding: 20px;
+ }
+
+ .button-wrapper button:nth-child(1){
+     background-color:#E7332B ;
+     color: #fff;
+     padding: 15px 40px;
+     margin-right:10px;
+     border-radius: 10px;
+     border: none;
+     font-size: 20px;
+ }
+
+ .button-wrapper button:nth-child(2){
+     color:#E7332B ;
+     background-color: #fff;
+     border: 1px solid #E7332B;
+     padding: 15px 30px;
+     border-radius: 10px;
+     font-size: 20px;
+ }
+
+ .intro-image img{
+    margin-top: 80px;
+    width: 38%;
+}
+
+/* relative  */
+ .relative{
+     position: relative;
+     left: 250px;
+     top: 15px;
+     background-color: white;
+     height: 40px;
+     width: 813px;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     box-shadow:5px 5px 1px 1px grey;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;    
+ }
+
+ 
+ .relative img{
+     height: 30px;
+ }
+.relative h3{
+    padding: 30px;
+    color: grey;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+
+} 
+
+.join{
+    margin: 60px 0px;
+}
+.join-main{
+    padding: 20px;
+    float: left;
+    width: 55%;
+}
+
+.join-main h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.join-main p{
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.join-image img{
+    width:38%;
+    height: 300px;
+    margin-top: 100px;
+}
+
+/* .register */
+.register{
+  margin-bottom: 30px;
+}
+
+.register img{
+    height: 630px;
+    width: 50%;
+    float: left;
+}
+
+.register-title{
+  background-color:#e9e6e6;
+
+}
+
+.register h2{
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.register p{
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.4444443881511688px;
+    text-align: center;
+}
+
+
+
+.register form{
+    float: right;
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+}
+label{
+    display: block; 
+    padding-top: 20px;   
+}
+
+input{
+width: 100%;
+border-radius: 10px;
+border: none;
+padding: 10px;
+margin-top: 20px;
+background-color: #F2F4F5;
+
+}
+button[type="submit"] {
+    background-color:#E7332B;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+
+/* footer  */
+footer{
+    background-color:#E7332B ;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    padding: 30px;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+
+
+}
+footer li{
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+
+
+}
+
+/* //////////////// */
+
